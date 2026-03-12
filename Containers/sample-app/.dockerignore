@@ -1,0 +1,21 @@
+# Version control
+.git
+.gitignore
+
+# Dependencies (we install them in Dockerfile)
+node_modules
+
+# Build files
+Dockerfile
+.dockerignore
+docker-compose.yml
+
+# Documentation
+README.md
+*.md
+
+# Logs and temporary files
+*.log
+npm-debug.log*
+.DS_Store
+.env
